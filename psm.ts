@@ -62,10 +62,10 @@ fs.createReadStream(argv.csvfile)
 
     // Output the results
     // console.log(`test: ${cumulativeExpensive[5].price}, ${cumulativeExpensive[5].cdf}` )
-    console.log(`最高価格: ${maxPrice.toFixed(0)}`);
-    console.log(`妥協価格: ${compromisedPrice.toFixed(0)}`);
-    console.log(`理想価格: ${idealPrice.toFixed(0)}`);
-    console.log(`最低品質保証価格: ${minPrice.toFixed(0)}`);
+    console.log(`最高価格: ${maxPrice.toFixed(0)}円`);
+    console.log(`妥協価格: ${compromisedPrice.toFixed(0)}円`);
+    console.log(`理想価格: ${idealPrice.toFixed(0)}円`);
+    console.log(`最低品質保証価格: ${minPrice.toFixed(0)}円`);
   });
 
 // Define the cumulative frequency function
